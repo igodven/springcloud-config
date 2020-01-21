@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  application:
+    name: config-server
+  profiles: dev
+  
+---
+spring:
+  application:
+    name: config-sever-default
+  profiles: default
